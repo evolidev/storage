@@ -1,4 +1,4 @@
-module github.com/evolidev/blitza
+module github.com/evolidev/storage
 
 go 1.18
 

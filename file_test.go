@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/evolidev/blitza/disk"
-	"github.com/evolidev/blitza/fs"
+	"github.com/evolidev/storage/disk"
+	"github.com/evolidev/storage/fs"
 	"testing"
 )
 

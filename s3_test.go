@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/evolidev/blitza/disk"
-	"github.com/evolidev/blitza/fs"
+	"github.com/evolidev/storage/disk"
+	"github.com/evolidev/storage/fs"
 	"io"
 	"testing"
 )

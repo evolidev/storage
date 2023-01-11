@@ -1,7 +1,7 @@
 package disk
 
 import (
-	"github.com/evolidev/blitza/fs"
+	"github.com/evolidev/storage/fs"
 	"os"
 	"path/filepath"
 	"strings"

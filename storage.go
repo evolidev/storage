@@ -1,6 +1,6 @@
 package storage
 
-import "github.com/evolidev/blitza/fs"
+import "github.com/evolidev/storage/fs"
 
 type Storage struct {
 	disks    map[string]fs.Disk

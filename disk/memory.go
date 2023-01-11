@@ -6,7 +6,7 @@ import (
 	"errors"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/evolidev/blitza/fs"
+	"github.com/evolidev/storage/fs"
 	"io"
 	"strings"
 	"time"
