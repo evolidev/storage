@@ -22,10 +22,13 @@ jobs:
         run: go get .
 
       - name: Test with Go
-        run: go test -json > TestResults.json
+        run: go test -coverprofile=coverage.txt -covermode=atomic -json > TestResults.json
 
       - name: Upload Go test results
         uses: actions/upload-artifact@v3
         with:
           name: Go-results
           path: TestResults.json
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
