@@ -1,4 +1,5 @@
 ![Build status](https://github.com/evolidev/blitza/actions/workflows/main.yml/badge.svg)
+[![codecov](https://codecov.io/github/evolidev/storage/branch/main/graph/badge.svg?token=QU5LPLJSJ4)](https://codecov.io/github/evolidev/storage)
 
 # evolidev/storage
 
