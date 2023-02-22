@@ -202,5 +202,5 @@ func (l *Local) getPath(path string) string {
 		return path
 	}
 
-	return l.config.Prefix + "/" + path
+	return l.config.Prefix + "/" + strings.Replace(path, l.config.Prefix, "", 1)
 }
