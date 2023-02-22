@@ -6,6 +6,10 @@ type File struct {
 	name    string
 }
 
+func (f *File) Write(p []byte) (n int, err error) {
+	return len(p), f.Put(p, PUBLIC)
+}
+
 func NewFile(store Disk, path string, name string) *File {
 	return &File{
 		storage: store,
