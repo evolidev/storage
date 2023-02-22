@@ -50,7 +50,7 @@ func (l *Local) Cwd() string {
 }
 
 func (l *Local) Put(file string, content []byte, visibility fs.Visibility) error {
-	directories := strings.Split(file, "/")
+	directories := strings.Split(strings.Replace(file, l.prefix, "", 1), "/")
 	directories = directories[:len(directories)-1]
 	dirPath := strings.Join(directories, "/")
 	if dirPath != "" {
